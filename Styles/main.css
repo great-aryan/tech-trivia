@@ -252,43 +252,50 @@ h4{
 }
 
 #home .call-to-action .btn2 {
-  border: 1px solid var(--blue-color);
+  border: 1px solid gray;
   margin-left: 10px;
   position: relative;
-  color: var(--blue-color);
+  color: rgba(53, 13, 13, 0.651);
   background: transparent;
   z-index: 2;
+  cursor: not-allowed;
 }
 
 #home .call-to-action .btn2:hover {
   border: 1px solid var(--white-color);
+  cursor: not-allowed;
 }
 
 #home .call-to-action .btn2 a {
   color: var(--blue-color);
   text-decoration: none;
   z-index: 2;
+  cursor: not-allowed;
 }
 
 #home .call-to-action .btn2::before {
   position: absolute;
   z-index: -1;
   content: '';
-  background-color: blue;
+  background-color: rgba(41, 37, 37, 0.877);
   width: 0%;
   height: 47px;
   top: 0;
   left: 0;
   -webkit-transition: all 0.3s ease-in-out;
   transition: all 0.3s ease-in-out;
+  cursor: not-allowed;
 }
 
 #home .call-to-action .btn2:hover::before {
   width: 100%;
+  cursor: not-allowed;
+  
 }
 
 #home .call-to-action .btn2:hover a {
   color: white;
+  cursor: not-allowed;
 }
 
 #about {
